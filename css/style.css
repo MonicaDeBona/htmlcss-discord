@@ -10,7 +10,7 @@
 
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .flex-centered{
@@ -148,7 +148,8 @@ footer .footer-button{
 
 div#jumbotron{
     background-image: url(../imgs/jumbo.png);
-    background-size: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 450px;
     width: 100%;
 }
@@ -156,7 +157,7 @@ div#jumbotron{
 div#jumbotron .jumbo-content{
     width: 45%;
     height: 350px;
-    background-color: #ed81ed;
+    
 }
 
 
@@ -186,10 +187,19 @@ a{
 
 .jumbo-content{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h1, h1~p, .browser-button{
+h1, h1~p, p~div{
     color: white;
+    padding-top: 3rem;
 }
+
+h1{
+    font-size: 3rem;
+}
+
 
 
