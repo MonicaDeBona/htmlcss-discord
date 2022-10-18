@@ -32,13 +32,11 @@
 
 .big-col{
     width: 65%;
-    background-color: #1e8ffe;
-
+    
 }
 
 .small-col{
     width: 35%;
-    background-color: #febfca;
 }
 
 .bg-grey{
@@ -208,5 +206,17 @@ h1{
     font-size: 3rem;
 }
 
+h2{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+p{
+    padding: 2rem;
+}
 
 
+
+.item{
+    width: 100%;
+}
