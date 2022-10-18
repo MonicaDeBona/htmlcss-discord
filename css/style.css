@@ -92,7 +92,6 @@ nav ul.main-menu li{
 
 
 div.big-content{
-    background-color: #228a22;
     height: 800px;
     width: 100%;
 }
@@ -203,20 +202,34 @@ h1, h1~p, p~div{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
-h2{
-    font-size: 2rem;
+main h2{
+    font-size: 2.5rem;
     padding: 2rem;
 }
 
-p{
-    padding: 2rem;
+main p{
+    padding: 1.5rem;
 }
-
-
 
 .item{
     width: 100%;
+}
+
+.king{
+    text-align: center;
+}
+
+.king h2{
+    padding: 2rem;
+}
+
+.big-content button{
+    background-color: #8ea1e1;
+    border: 1px solid #8ea1e1;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 10px 20px;
 }
