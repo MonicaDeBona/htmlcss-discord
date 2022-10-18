@@ -178,11 +178,18 @@ a{
 .download-button{
     background-color: white;
     border: 1px solid white;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-right: 2rem;
 }
 
 .browser-button{
     background-color: #23272a;
     border: 1px solid #23272a;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 10px 20px;
 }
 
 .jumbo-content{
